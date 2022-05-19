@@ -1,0 +1,18 @@
+.card-container {
+    width: 50vw;
+    height: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr / .5fr 1fr 1fr;
+    background-color: lightslategray;
+}
+
+.about-card{
+    grid-column: 1 / 3;
+    grid-row: 1/2
+}
+
+.sarah-card {
+    
+}
