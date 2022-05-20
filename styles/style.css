@@ -28,7 +28,7 @@ header {
     padding-left: 20px;
 }
 .site-header h1{
-    display: block;
+    white-space: nowrap;
 }
 
 header nav {
