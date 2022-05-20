@@ -16,7 +16,7 @@ main {
     font-family: Verdana, sans-serif;
 }
 
-.main-header {
+.site-header {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: baseline;

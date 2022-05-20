@@ -30,6 +30,6 @@ article + article {
     margin-top: 10px;
 }
 
-body > section:nth-last-child(2) {
+main {
     padding-bottom: 10px;
 }
