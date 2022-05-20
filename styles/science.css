@@ -1,5 +1,6 @@
 main header {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 main header p {
@@ -13,6 +14,10 @@ main header p {
     justify-content: space-around;
 }
 
+.science-articles h2 {
+    text-align: center;
+}
+
 .science-articles article {
     padding-left: 20px;
     padding-right: 20px;
@@ -21,10 +26,6 @@ main header p {
     min-width:min-content;
     background-color: #E9EAED;
     margin: 10px;
-}
-
-.science-articles h2 {
-    text-align: center;
 }
 
 em {

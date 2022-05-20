@@ -2,6 +2,11 @@ main header{
     padding-left: 20px;
 }
 
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .image-row {
     display: flex;
     justify-content: space-around;
@@ -15,6 +20,9 @@ main header{
 
 .image-row figure{
     text-align: center;
+    /* fits caption to content as
+    caption can scale/wrap while
+    image cannot */
     max-width: min-content;
 }
 
@@ -25,7 +33,4 @@ main header{
     max-width: 100%;
 }
 
-p {
-    padding-left: 30px;
-    padding-right: 30px;
-}
+
