@@ -7,7 +7,6 @@ section header {
     text-align: right;
     grid-column: 1 / 2;
     background-color: #E9EAED;
-    grid-row: 1 / -1;
     margin-top: 10px;
     padding-right: 20px;
     font-size: large;
@@ -17,6 +16,7 @@ section header {
     grid-column-start: 2;
     display: flex;
     flex-direction: column;
+    gap: 10px;
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -24,10 +24,7 @@ section header {
 article{
     background-color: #AED9E0;
     padding: 10px;
-}
-
-article + article {
-    margin-top: 10px;
+    padding-bottom: 20px;
 }
 
 main {
