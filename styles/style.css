@@ -20,7 +20,7 @@ main {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: baseline;
-    border-bottom: 2px dotted slategray;
+    border-bottom: 2px dotted #787E91;
     padding-left: 20px;
 }
 
@@ -29,10 +29,10 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: slategray;
+    color: #9A9EAC;
     text-align: center;
     margin-top: auto;
-    border-top: 2px dotted slategray;
+    border-top: 2px dotted #787E91;
     padding-left: 20px;
     padding-right: 20px;
     font-size: small;
@@ -64,12 +64,18 @@ nav li{
 
 nav li a{
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-size: larger;
 }
 
+main a {
+    color: #6C0E23;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 a:hover {
-    color: pink;
+    color: #FFA69E;
 }
 
 main a[href*="github"]{

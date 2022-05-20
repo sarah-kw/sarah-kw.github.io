@@ -1,18 +1,27 @@
-/* .card-container {
-    width: 50vw;
-    height: 25vw;
+main {
+    text-align: center;
+    align-items: center;
+}
+
+main ul {
+    padding-inline-start: 0px;
+}
+main li {
+    vertical-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr / .5fr 1fr 1fr;
-    background-color: lightslategray;
+    list-style: none;
+    max-width: 25vw;
+    min-width: fit-content;
+    background-color: #AED9E0;
+    /* border: 1px solid lightgrey; */
+    border-radius: 20px;
 }
 
-.about-card{
-    grid-column: 1 / 3;
-    grid-row: 1/2
+main ul a{
+    text-decoration: none;
+    color: black;
 }
-
-.sarah-card {
-    
-} */

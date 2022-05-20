@@ -19,10 +19,14 @@ main header p {
     padding-bottom: 20px;
     max-width: 25vw;
     min-width:min-content;
-    background-color: whitesmoke;
+    background-color: #E9EAED;
     margin: 10px;
 }
 
 .science-articles h2 {
     text-align: center;
+}
+
+.author-sarah {
+    font-weight: bold;
 }

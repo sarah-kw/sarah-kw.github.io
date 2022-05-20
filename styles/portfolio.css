@@ -6,7 +6,7 @@ section {
 section header {
     text-align: right;
     grid-column: 1 / 2;
-    background-color: lightgrey;
+    background-color: #E9EAED;
     grid-row: 1 / -1;
     margin-top: 10px;
     padding-right: 20px;
@@ -22,7 +22,7 @@ section header {
 }
 
 article{
-    background-color: lightcyan;
+    background-color: #AED9E0;
     padding: 10px;
 }
 
@@ -32,4 +32,8 @@ article + article {
 
 main {
     padding-bottom: 10px;
+}
+
+article a {
+    color: #000000;
 }
