@@ -1,7 +1,14 @@
-body {
+html {
+    background-color: antiquewhite;
+}
+
+header {
     font-family: Didot, Times, serif
 }
 
+body {
+    font-family: Verdana, sans-serif
+}
 .main-header {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -11,7 +18,28 @@ body {
 }
 
 footer {
-    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    color: slategray;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: small;
+}
+
+.media-links {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media-links img {
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 nav {
@@ -35,8 +63,8 @@ a:hover {
     color: pink;
 }
 
-a[href*="github"]{
+main a[href*="github"]{
     background: url("../images/GitHub-Mark-120px-plus.png") no-repeat left center;
     background-size: contain;
-    padding-left: 20px;
+    padding-left: 25px;
 }
