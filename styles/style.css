@@ -1,8 +1,13 @@
-header {
+body {
+    font-family: Didot, Times, serif
+}
+
+.main-header {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: baseline;
     background-color: slategray;
+    padding-left: 20px;
 }
 
 footer {
@@ -26,6 +31,12 @@ nav li a{
     font-size: larger;
 }
 
-nav li a:hover{
-    color: pink
+a:hover {
+    color: pink;
+}
+
+a[href*="github"]{
+    background: url("../images/GitHub-Mark-120px-plus.png") no-repeat left center;
+    background-size: contain;
+    padding-left: 20px;
 }
