@@ -22,10 +22,13 @@ header {
 
 .site-header {
     display: grid;
-    grid-template-columns: max-content 1fr auto;
+    grid-template-columns: auto 1fr auto;
     align-items: baseline;
     border-bottom: 2px dotted #787E91;
     padding-left: 20px;
+}
+.site-header h1{
+    display: block;
 }
 
 header nav {
