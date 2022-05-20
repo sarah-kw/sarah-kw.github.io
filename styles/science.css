@@ -27,6 +27,7 @@ main header p {
     text-align: center;
 }
 
-.author-sarah {
+em {
+    font-style: normal;
     font-weight: bold;
 }

@@ -17,11 +17,12 @@ main li {
     max-width: 25vw;
     min-width: fit-content;
     background-color: #AED9E0;
-    /* border: 1px solid lightgrey; */
+    border: 1px solid lightgrey;
     border-radius: 20px;
 }
 
 main ul a{
+    display: block;
     text-decoration: none;
     color: black;
 }

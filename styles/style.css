@@ -25,9 +25,9 @@ main {
 }
 
 footer {
+    height: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     color: #9A9EAC;
     text-align: center;
@@ -38,31 +38,28 @@ footer {
     font-size: small;
 }
 
-.media-links {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.media-links img {
+footer img {
     height: 25px;
     padding-left: 10px;
     padding-right: 10px;
 }
+footer :last-child {
+    margin-left: auto;
+}
 
-nav {
+header nav {
     width: fit-content;
     grid-column-start: 3;
     padding-right: 25px;
 }
 
-nav li{
+header nav li{
     margin: 0px;
     display: inline;
     padding: 10px;
 }
 
-nav li a{
+header nav li a{
     text-decoration: none;
     color: #000000;
     font-size: larger;
