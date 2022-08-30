@@ -31,6 +31,16 @@ header {
     white-space: nowrap;
 }
 
+.site-header h1 a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+}
+
+.site-header h1 a:hover {
+    color: #FFA69E;
+}
+
 header nav {
     width: fit-content;
     grid-column-start: 3;
