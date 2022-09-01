@@ -9,9 +9,9 @@ main header p {
 
 .science-articles {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .science-articles h2 {
@@ -19,13 +19,19 @@ main header p {
 }
 
 .science-articles article {
-    padding-left: 20px;
+    padding:20px;
+    /* padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
-    max-width: 25vw;
-    min-width:min-content;
+    padding-bottom: 20px; */
+    flex: 1 0 250px;
+    /* max-width: 25vw;
+    min-width:min-content; */
     background-color: #E9EAED;
     margin: 10px;
+}
+
+.science-articles h2 {
+    margin: 0px;
 }
 
 em {

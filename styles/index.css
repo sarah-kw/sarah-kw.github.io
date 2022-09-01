@@ -29,3 +29,9 @@ main li {
     /* rounds background as well as border */
     border-radius: 20px;
 }
+
+main p {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
